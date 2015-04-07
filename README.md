@@ -1,2 +1,3 @@
 # barricade-styleguide
-Styleguide as a bower_component
+
+`bower install barricade-styleguide --save`
