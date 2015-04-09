@@ -1,3 +1,16 @@
+/* ==========================================================================
+/ Barricade Styleguide
+/ https://github.com/barricadeio/barricade-styleguide
+/ ---------------------------------------------------
+/ - normalize
+/ - foundation 5
+/ - font awesome
+/ - brand styleguide
+/ - (+) local app edits
+/ ---------------------------------------------------
+/
+**/
+
 // load reset (normalize)
 @import "../bower_components/foundation/scss/normalize.scss";
 
@@ -41,6 +54,7 @@
 @import "../bower_components/foundation/scss/foundation/components/visibility";
 
 // load font awesome
+$fa-font-path: "../bower_components/font-awesome/fonts" !default;
 @import "../bower_components/font-awesome/scss/font-awesome.scss";
 
 // load styleguide
@@ -50,13 +64,10 @@
 @import 'partials/icons';
 @import 'partials/keyframe';
 
-// import styles for the docs
-@import 'styleguide.scss';
-
 
 html, body {
   font-size: $base-font-size;
-  background: $light1;
+  background: $lightbg;
   @include futuraRegular;
 }
 
@@ -126,4 +137,9 @@ form,
   textarea {
     min-height: 80px;
   }
+}
+
+.alert-box {
+  font-size: $scalex3;
+  padding-right: 5%;
 }

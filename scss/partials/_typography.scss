@@ -7,6 +7,26 @@
 // Typography Variables
 //
 $base-font-size: 16px;
+
+  //app-size
+  $app-size: $base-font-size * 0.875; //14px
+
+  //scale down
+  $scalex0: $base-font-size * 0.625;  //10px
+  $scalex1: $base-font-size * 0.75;   //12px
+  $scalex2: $base-font-size * 0.8125; //13px
+  $scalex3: $base-font-size * 0.875;  //14px
+  $scalex4: $base-font-size * 0.9375; //15px
+
+  //scale up
+  $scalex5: $base-font-size * 1.125;  //18px
+  $scalex6: $base-font-size * 1.25;   //18px
+  $scalex7: $base-font-size * 1.5;    //18px
+  $scalex8: $base-font-size * 2;      //24px
+  $scalex9: $base-font-size * 2.25;   //36px
+  $scalex10: $base-font-size * 3;     //14px
+
+
 $base-line-height: 1.5;
 $base-vertical-space: 2.5rem;
 $base-pad-right: 5%;
