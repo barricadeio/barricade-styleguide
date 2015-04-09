@@ -192,3 +192,12 @@ strong,
 .bold-text {
   @include futuraBold;
 }
+
+.prefix, .postfix {
+  @include futuraBold;
+  @include border-radius;
+  @include upperCase;
+  font-size: $scalex3;
+  height: 3.3125rem;
+  line-height: 3.3125rem;
+}

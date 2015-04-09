@@ -3029,6 +3029,8 @@ a { color: #008cba; }
 
 strong, .bold-text { font-family: "futura-pt", "futura-bold", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; letter-spacing: 0.05em; -webkit-font-smoothing: antialiased; }
 
+.prefix, .postfix { font-family: "futura-pt", "futura-bold", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; letter-spacing: 0.05em; -webkit-font-smoothing: antialiased; -webkit-border-radius: 3px 3px 3px 3px; -moz-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; text-transform: uppercase; letter-spacing: 0.25em; font-size: 14px; height: 3.3125rem; line-height: 3.3125rem; }
+
 /* Buttons
 //
 */
@@ -3163,6 +3165,17 @@ button.disabled:hover, button.disabled:active, button[disabled]:hover, button[di
   50% { -webkit-transform: scale(0.1); opacity: 0.3; }
   75% { -webkit-transform: scale(0.5); opacity: 0.5; }
   100% { -webkit-transform: scale(1); opacity: 0.0; } }
+.tabs { margin-bottom: 0 !important; margin: 0px auto; width: 40%; }
+.tabs dd, .tabs .tab-title { float: left; width: 50%; text-align: center; }
+.tabs dd a, .tabs .tab-title a { font-family: "futura-pt", "futura-regular", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; letter-spacing: 0.035em; -webkit-font-smoothing: antialiased; color: #079493; padding: 1rem 0; font-size: 1rem; border: 1px solid #079493; }
+.tabs dd a:hover, .tabs .tab-title a:hover { background-color: #ecedf3; }
+.tabs dd.active a, .tabs .tab-title.active a { background-color: #079493; color: white; }
+
+.tooltip { font-size: 15px !important; }
+
+.tooltip > .nub { font-family: "futura-pt", "futura-regular", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; letter-spacing: 0.035em; -webkit-font-smoothing: antialiased; }
+
+@media only screen and (min-width: 40.063em) { .joyride-tip-guide { width: 95%; } }
 html, body { font-size: 16px; background: #fdfdfd; font-family: "futura-pt", "futura-regular", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; letter-spacing: 0.035em; -webkit-font-smoothing: antialiased; }
 
 form .form-control, .form-controls .form-control { margin-bottom: 1.25rem; }
