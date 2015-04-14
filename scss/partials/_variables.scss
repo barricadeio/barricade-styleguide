@@ -80,21 +80,21 @@ $mono: "Lucida Console", "Courier New", monaco, monospace;
 @mixin futuraLight {
   font-family: "futura-pt", "futura-light", $base;
   font-weight: 300;
-  letter-spacing: 0.035em;
+  letter-spacing: 0.015em;
   -webkit-font-smoothing: antialiased;
 }
 
 @mixin futuraRegular {
   font-family: "futura-pt", "futura-regular", $base;
   font-weight: 400;
-  letter-spacing: 0.035em;
+  letter-spacing: 0.0075em;
   -webkit-font-smoothing: antialiased;
 }
 
 @mixin futuraBold {
   font-family: "futura-pt", "futura-bold", $base;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.035em;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -105,7 +105,7 @@ $mono: "Lucida Console", "Courier New", monaco, monospace;
 
 @mixin normCase {
   text-transform: none;
-  letter-spacing: 0.035em;
+  letter-spacing: 0.015em;
 }
 
 
